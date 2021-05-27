@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  array.length.times{|i|
+   array[i] = array [i] ** 2 
+  }
+   array
 end
+numbers = [1,2,3]
+p square_array (numbers)
